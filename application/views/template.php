@@ -97,7 +97,7 @@
                     <?php echo $contents; ?>
             </div>
             <!-- /. PAGE INNER  -->
-            <footer><p>Website : <a href="http://akbardesign.org" target="_blank">www.akbardesign.org</a></p></footer>
+            <footer><p>Website : <a href="http://akbardesign.org" target="_blank">www.my-ta.id</a></p></footer>
         </div>
         <!-- /. PAGE WRAPPER  -->
     </div>
