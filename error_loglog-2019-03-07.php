@@ -1902,3 +1902,193 @@ DEBUG - 2019-03-07 15:49:07 --> Global POST, GET and COOKIE data sanitized
 INFO - 2019-03-07 15:49:07 --> Input Class Initialized
 INFO - 2019-03-07 15:49:07 --> Language Class Initialized
 ERROR - 2019-03-07 15:49:08 --> 404 Page Not Found: Assets/css
+ERROR - 2019-03-07 16:40:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2019-03-07 16:40:08 --> Config Class Initialized
+INFO - 2019-03-07 16:40:08 --> Hooks Class Initialized
+DEBUG - 2019-03-07 16:40:08 --> UTF-8 Support Enabled
+INFO - 2019-03-07 16:40:08 --> Utf8 Class Initialized
+INFO - 2019-03-07 16:40:08 --> URI Class Initialized
+DEBUG - 2019-03-07 16:40:08 --> No URI present. Default controller set.
+INFO - 2019-03-07 16:40:08 --> Router Class Initialized
+INFO - 2019-03-07 16:40:08 --> Output Class Initialized
+INFO - 2019-03-07 16:40:08 --> Security Class Initialized
+DEBUG - 2019-03-07 16:40:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-07 16:40:08 --> Input Class Initialized
+INFO - 2019-03-07 16:40:08 --> Language Class Initialized
+INFO - 2019-03-07 16:40:08 --> Loader Class Initialized
+INFO - 2019-03-07 16:40:08 --> Helper loaded: url_helper
+INFO - 2019-03-07 16:40:08 --> Helper loaded: form_helper
+INFO - 2019-03-07 16:40:08 --> Helper loaded: html_helper
+INFO - 2019-03-07 16:40:08 --> Helper loaded: kasir_helper
+INFO - 2019-03-07 16:40:08 --> Database Driver Class Initialized
+DEBUG - 2019-03-07 16:40:08 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-07 16:40:08 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-07 16:40:08 --> Form Validation Class Initialized
+INFO - 2019-03-07 16:40:08 --> Controller Class Initialized
+INFO - 2019-03-07 16:40:08 --> Model Class Initialized
+ERROR - 2019-03-07 16:40:08 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2019-03-07 16:40:08 --> Config Class Initialized
+INFO - 2019-03-07 16:40:08 --> Hooks Class Initialized
+DEBUG - 2019-03-07 16:40:09 --> UTF-8 Support Enabled
+INFO - 2019-03-07 16:40:09 --> Utf8 Class Initialized
+INFO - 2019-03-07 16:40:09 --> URI Class Initialized
+INFO - 2019-03-07 16:40:09 --> Router Class Initialized
+INFO - 2019-03-07 16:40:09 --> Output Class Initialized
+INFO - 2019-03-07 16:40:09 --> Security Class Initialized
+DEBUG - 2019-03-07 16:40:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-07 16:40:09 --> Input Class Initialized
+INFO - 2019-03-07 16:40:09 --> Language Class Initialized
+INFO - 2019-03-07 16:40:09 --> Loader Class Initialized
+INFO - 2019-03-07 16:40:09 --> Helper loaded: url_helper
+INFO - 2019-03-07 16:40:09 --> Helper loaded: form_helper
+INFO - 2019-03-07 16:40:09 --> Helper loaded: html_helper
+INFO - 2019-03-07 16:40:09 --> Helper loaded: kasir_helper
+INFO - 2019-03-07 16:40:09 --> Database Driver Class Initialized
+DEBUG - 2019-03-07 16:40:09 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-07 16:40:09 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-07 16:40:09 --> Form Validation Class Initialized
+INFO - 2019-03-07 16:40:09 --> Controller Class Initialized
+INFO - 2019-03-07 16:40:09 --> File loaded: C:\xampp\htdocs\bagus\application\views\v_dashboard.php
+INFO - 2019-03-07 16:40:09 --> File loaded: C:\xampp\htdocs\bagus\application\views\template.php
+INFO - 2019-03-07 16:40:09 --> Final output sent to browser
+DEBUG - 2019-03-07 16:40:09 --> Total execution time: 0.3232
+ERROR - 2019-03-07 16:40:09 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2019-03-07 16:40:09 --> Config Class Initialized
+INFO - 2019-03-07 16:40:09 --> Hooks Class Initialized
+DEBUG - 2019-03-07 16:40:09 --> UTF-8 Support Enabled
+INFO - 2019-03-07 16:40:09 --> Utf8 Class Initialized
+INFO - 2019-03-07 16:40:09 --> URI Class Initialized
+INFO - 2019-03-07 16:40:09 --> Router Class Initialized
+INFO - 2019-03-07 16:40:09 --> Output Class Initialized
+INFO - 2019-03-07 16:40:09 --> Security Class Initialized
+DEBUG - 2019-03-07 16:40:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-07 16:40:09 --> Input Class Initialized
+INFO - 2019-03-07 16:40:09 --> Language Class Initialized
+ERROR - 2019-03-07 16:40:09 --> 404 Page Not Found: Assets/css
+ERROR - 2019-03-07 16:40:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2019-03-07 16:40:13 --> Config Class Initialized
+INFO - 2019-03-07 16:40:13 --> Hooks Class Initialized
+DEBUG - 2019-03-07 16:40:13 --> UTF-8 Support Enabled
+INFO - 2019-03-07 16:40:13 --> Utf8 Class Initialized
+INFO - 2019-03-07 16:40:13 --> URI Class Initialized
+INFO - 2019-03-07 16:40:13 --> Router Class Initialized
+INFO - 2019-03-07 16:40:13 --> Output Class Initialized
+INFO - 2019-03-07 16:40:13 --> Security Class Initialized
+DEBUG - 2019-03-07 16:40:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-07 16:40:13 --> Input Class Initialized
+INFO - 2019-03-07 16:40:13 --> Language Class Initialized
+INFO - 2019-03-07 16:40:13 --> Loader Class Initialized
+INFO - 2019-03-07 16:40:13 --> Helper loaded: url_helper
+INFO - 2019-03-07 16:40:13 --> Helper loaded: form_helper
+INFO - 2019-03-07 16:40:13 --> Helper loaded: html_helper
+INFO - 2019-03-07 16:40:13 --> Helper loaded: kasir_helper
+INFO - 2019-03-07 16:40:13 --> Database Driver Class Initialized
+DEBUG - 2019-03-07 16:40:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-07 16:40:13 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-07 16:40:13 --> Form Validation Class Initialized
+INFO - 2019-03-07 16:40:13 --> Controller Class Initialized
+INFO - 2019-03-07 16:40:13 --> Model Class Initialized
+ERROR - 2019-03-07 16:40:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2019-03-07 16:40:13 --> Config Class Initialized
+INFO - 2019-03-07 16:40:13 --> Hooks Class Initialized
+DEBUG - 2019-03-07 16:40:13 --> UTF-8 Support Enabled
+INFO - 2019-03-07 16:40:13 --> Utf8 Class Initialized
+INFO - 2019-03-07 16:40:13 --> URI Class Initialized
+INFO - 2019-03-07 16:40:13 --> Router Class Initialized
+INFO - 2019-03-07 16:40:13 --> Output Class Initialized
+INFO - 2019-03-07 16:40:13 --> Security Class Initialized
+DEBUG - 2019-03-07 16:40:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-07 16:40:13 --> Input Class Initialized
+INFO - 2019-03-07 16:40:13 --> Language Class Initialized
+INFO - 2019-03-07 16:40:13 --> Loader Class Initialized
+INFO - 2019-03-07 16:40:13 --> Helper loaded: url_helper
+INFO - 2019-03-07 16:40:13 --> Helper loaded: form_helper
+INFO - 2019-03-07 16:40:13 --> Helper loaded: html_helper
+INFO - 2019-03-07 16:40:13 --> Helper loaded: kasir_helper
+INFO - 2019-03-07 16:40:13 --> Database Driver Class Initialized
+DEBUG - 2019-03-07 16:40:13 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-07 16:40:13 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-07 16:40:13 --> Form Validation Class Initialized
+INFO - 2019-03-07 16:40:13 --> Controller Class Initialized
+INFO - 2019-03-07 16:40:13 --> Model Class Initialized
+INFO - 2019-03-07 16:40:13 --> File loaded: C:\xampp\htdocs\bagus\application\views\form_login.php
+INFO - 2019-03-07 16:40:13 --> Final output sent to browser
+DEBUG - 2019-03-07 16:40:13 --> Total execution time: 0.3059
+ERROR - 2019-03-07 16:40:13 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2019-03-07 16:40:13 --> Config Class Initialized
+INFO - 2019-03-07 16:40:13 --> Hooks Class Initialized
+DEBUG - 2019-03-07 16:40:13 --> UTF-8 Support Enabled
+INFO - 2019-03-07 16:40:13 --> Utf8 Class Initialized
+INFO - 2019-03-07 16:40:14 --> URI Class Initialized
+INFO - 2019-03-07 16:40:14 --> Router Class Initialized
+INFO - 2019-03-07 16:40:14 --> Output Class Initialized
+INFO - 2019-03-07 16:40:14 --> Security Class Initialized
+DEBUG - 2019-03-07 16:40:14 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-07 16:40:14 --> Input Class Initialized
+INFO - 2019-03-07 16:40:14 --> Language Class Initialized
+ERROR - 2019-03-07 16:40:14 --> 404 Page Not Found: Assets/img
+ERROR - 2019-03-07 16:40:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2019-03-07 16:40:21 --> Config Class Initialized
+INFO - 2019-03-07 16:40:21 --> Hooks Class Initialized
+DEBUG - 2019-03-07 16:40:21 --> UTF-8 Support Enabled
+INFO - 2019-03-07 16:40:21 --> Utf8 Class Initialized
+INFO - 2019-03-07 16:40:21 --> URI Class Initialized
+INFO - 2019-03-07 16:40:21 --> Router Class Initialized
+INFO - 2019-03-07 16:40:21 --> Output Class Initialized
+INFO - 2019-03-07 16:40:21 --> Security Class Initialized
+DEBUG - 2019-03-07 16:40:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-07 16:40:21 --> Input Class Initialized
+INFO - 2019-03-07 16:40:21 --> Language Class Initialized
+INFO - 2019-03-07 16:40:21 --> Loader Class Initialized
+INFO - 2019-03-07 16:40:21 --> Helper loaded: url_helper
+INFO - 2019-03-07 16:40:21 --> Helper loaded: form_helper
+INFO - 2019-03-07 16:40:21 --> Helper loaded: html_helper
+INFO - 2019-03-07 16:40:21 --> Helper loaded: kasir_helper
+INFO - 2019-03-07 16:40:21 --> Database Driver Class Initialized
+DEBUG - 2019-03-07 16:40:21 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-07 16:40:21 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-07 16:40:21 --> Form Validation Class Initialized
+INFO - 2019-03-07 16:40:21 --> Controller Class Initialized
+INFO - 2019-03-07 16:40:21 --> Model Class Initialized
+INFO - 2019-03-07 16:40:21 --> File loaded: C:\xampp\htdocs\bagus\application\views\Register.php
+INFO - 2019-03-07 16:40:21 --> Final output sent to browser
+DEBUG - 2019-03-07 16:40:21 --> Total execution time: 0.3749
+ERROR - 2019-03-07 16:40:21 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2019-03-07 16:40:21 --> Config Class Initialized
+INFO - 2019-03-07 16:40:21 --> Hooks Class Initialized
+DEBUG - 2019-03-07 16:40:21 --> UTF-8 Support Enabled
+INFO - 2019-03-07 16:40:21 --> Utf8 Class Initialized
+INFO - 2019-03-07 16:40:21 --> URI Class Initialized
+INFO - 2019-03-07 16:40:21 --> Router Class Initialized
+INFO - 2019-03-07 16:40:21 --> Output Class Initialized
+INFO - 2019-03-07 16:40:21 --> Security Class Initialized
+DEBUG - 2019-03-07 16:40:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-07 16:40:22 --> Input Class Initialized
+INFO - 2019-03-07 16:40:22 --> Language Class Initialized
+ERROR - 2019-03-07 16:40:22 --> 404 Page Not Found: Assets/img
+ERROR - 2019-03-07 16:40:25 --> Could not find the specified $config['composer_autoload'] path: vendor/autoload.php
+INFO - 2019-03-07 16:40:25 --> Config Class Initialized
+INFO - 2019-03-07 16:40:25 --> Hooks Class Initialized
+DEBUG - 2019-03-07 16:40:25 --> UTF-8 Support Enabled
+INFO - 2019-03-07 16:40:25 --> Utf8 Class Initialized
+INFO - 2019-03-07 16:40:26 --> URI Class Initialized
+INFO - 2019-03-07 16:40:26 --> Router Class Initialized
+INFO - 2019-03-07 16:40:26 --> Output Class Initialized
+INFO - 2019-03-07 16:40:26 --> Security Class Initialized
+DEBUG - 2019-03-07 16:40:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-03-07 16:40:26 --> Input Class Initialized
+INFO - 2019-03-07 16:40:26 --> Language Class Initialized
+INFO - 2019-03-07 16:40:26 --> Loader Class Initialized
+INFO - 2019-03-07 16:40:26 --> Helper loaded: url_helper
+INFO - 2019-03-07 16:40:26 --> Helper loaded: form_helper
+INFO - 2019-03-07 16:40:26 --> Helper loaded: html_helper
+INFO - 2019-03-07 16:40:26 --> Helper loaded: kasir_helper
+INFO - 2019-03-07 16:40:26 --> Database Driver Class Initialized
+DEBUG - 2019-03-07 16:40:26 --> Session: "sess_save_path" is empty; using "session.save_path" value from php.ini.
+INFO - 2019-03-07 16:40:26 --> Session: Class initialized using 'files' driver.
+INFO - 2019-03-07 16:40:26 --> Form Validation Class Initialized
+INFO - 2019-03-07 16:40:26 --> Controller Class Initialized
+INFO - 2019-03-07 16:40:26 --> Model Class Initialized
+INFO - 2019-03-07 16:40:26 --> File loaded: C:\xampp\htdocs\bagus\application\views\form_login.php
+INFO - 2019-03-07 16:40:26 --> Final output sent to browser
+DEBUG - 2019-03-07 16:40:26 --> Total execution time: 0.3533
