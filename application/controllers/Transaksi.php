@@ -17,7 +17,7 @@ class Transaksi extends CI_Controller {
 
     function __construct() {
         parent::__construct();
-        $this->load->model(array('m_barang', 'm_transaksi', 'm_Promo'));
+        $this->load->model(array('m_barang', 'm_transaksi', 'm_promo'));
         chek_session();
     }
 
