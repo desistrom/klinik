@@ -28,7 +28,7 @@ class Transaksi extends CI_Controller {
         } else {
             $data['barang'] = $this->m_barang->tampil_data();
             $data['detail'] = $this->m_transaksi->tampilkan_detail_transaksi();
-            $data['promo'] = $this->m_Promo->tampilkan_data()->result();
+            $data['promo'] = $this->m_promo->tampilkan_data()->result();
             $this->template->load('template', 'transaksi/form_transaksi', $data);
 //            $data['detail'] = $this->m_transaksi->
         }
