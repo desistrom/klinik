@@ -57,16 +57,16 @@
                         <a href="<?php echo base_url().'kategori'?>"><i class="fa fa-desktop"></i> Kategori Barang</a>
                     </li>
 					<li>
-                        <a href="<?php echo site_url().'/barang'?>"><i class="fa fa-bar-chart-o"></i> Data Barang</a>
+                        <a href="<?php echo site_url().'barang'?>"><i class="fa fa-bar-chart-o"></i> Data Barang</a>
                     </li>
                     <li>
                         <a href="<?php echo base_url().'pegawai'?>"><i class="fa fa-qrcode"></i> Operator Sistem</a>
                     </li>
                     <li>
-                        <a href="<?php echo site_url().'/promo'?>"><i class="fa fa-money"></i> Promo </a>
+                        <a href="<?php echo site_url().'promo'?>"><i class="fa fa-money"></i> Promo </a>
                     </li>
                     <li>
-                        <a href="<?php echo site_url().'/transaksi'?>"><i class="fa fa-edit"></i> Transaksi </a>
+                        <a href="<?php echo site_url().'transaksi'?>"><i class="fa fa-edit"></i> Transaksi </a>
                     </li>
 
                     <li>

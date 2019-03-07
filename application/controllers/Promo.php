@@ -8,12 +8,12 @@
 class Promo extends CI_Controller{
     function __construct() {
         parent::__construct();
-        $this->load->model('m_Promo');
+        $this->load->model('m_promo');
         chek_session();
     }
     
     function index(){
-        $data['record'] = $this->m_Promo->tampilkan_data();
+        $data['record'] = $this->m_promo->tampilkan_data();
         $this->template->load('template','promo/lihat_promo',$data);
     }
     function inputPromo(){
@@ -27,7 +27,7 @@ class Promo extends CI_Controller{
                                 'date_promo'=>$tglPromo,
                                 'besar_diskon'=>(($bsrDiskon))*0.01,
                                 'username'=>$username);
-            $this->m_Promo->post($data);
+            $this->m_promo->post($data);
             redirect('promo');
         }else{
             $this->template->load('template','input_promo');
@@ -46,18 +46,18 @@ class Promo extends CI_Controller{
                                 'date_promo'=>$tglPromo,
                                 'besar_diskon'=>(($bsrDiskon))*0.01,
                                 'username'=>$username);
-            $this->m_Promo->edit($data, $id);
+            $this->m_promo->edit($data, $id);
             redirect('promo');
         }else{
             $id=  $this->uri->segment(3);
-            $data['record']     =  $this->m_Promo->get_one($id)->row_array();
+            $data['record']     =  $this->m_promo->get_one($id)->row_array();
             //$this->load->view('barang/form_edit',$data);
             $this->template->load('template','promo/form_edit',$data);
         }
     }
     function delete(){
         $id=  $this->uri->segment(3);
-            $this->m_Promo->delete($id);
+            $this->m_promo->delete($id);
             redirect('promo');
     }
 }
