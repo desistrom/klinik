@@ -12,7 +12,7 @@ class Auth extends CI_Controller {
     
     function __construct() {
         parent::__construct();
-        $this->load->model('m_Pegawai');
+        $this->load->model('m_pegawai');
     }
     
     function login(){
