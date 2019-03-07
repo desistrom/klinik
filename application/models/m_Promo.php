@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
-class m_Promo extends CI_Model{
+class M_Promo extends CI_Model{
     
     function post($data){
         $this->db->insert('Promo',$data);

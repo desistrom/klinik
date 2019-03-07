@@ -11,7 +11,7 @@
  *
  * @author yoga_
  */
-class m_Pegawai extends CI_model {
+class M_Pegawai extends CI_model {
     //put your code here
     function login($username,$password)
     {

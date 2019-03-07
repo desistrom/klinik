@@ -11,7 +11,7 @@
  *
  * @author yoga_
  */
-class m_barang extends CI_Model {
+class M_barang extends CI_Model {
 
     //put your code here
     function tampil_data() {

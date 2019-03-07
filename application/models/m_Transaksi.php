@@ -11,7 +11,7 @@
  *
  * @author yoga_
  */
-class m_Transaksi extends CI_model {
+class M_Transaksi extends CI_model {
 
     //put your code here
 
