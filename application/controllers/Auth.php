@@ -12,7 +12,7 @@ class Auth extends CI_Controller {
     
     function __construct() {
         parent::__construct();
-        $this->load->model('M_Pegawai');
+        $this->load->model('m_pegawai');
     }
     
     function login(){
@@ -20,7 +20,7 @@ class Auth extends CI_Controller {
        $username = $this->input->post('username');
        $password = $this->input->post('password');
 
-       $hasil = $this->M_Pegawai->login($username, $password);
+       $hasil = $this->m_pegawai->login($username, $password);
        //$this->m_barang->tampildata($username);
               if ($hasil==1){
                  $sessiondata = array(
