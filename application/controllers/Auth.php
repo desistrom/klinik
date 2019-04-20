@@ -19,11 +19,8 @@ class Auth extends CI_Controller {
        if(isset($_POST['submit'])){
        $username = $this->input->post('username');
        $password = $this->input->post('password');
-<<<<<<< HEAD
-       $hasil = $this->m_pegawai->login($username, $password);
-=======
+
        $hasil = $this->M_Pegawai->login($username, $password);
->>>>>>> bb3b8701007d302cd161160918da2bcb9d0f0c39
        //$this->m_barang->tampildata($username);
               if ($hasil==1){
                  $sessiondata = array(
