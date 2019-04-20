@@ -29,7 +29,7 @@ class M_Pegawai extends CI_model {
         return $this->db->get('pegawai');
     }
     
-    function add($nama, $username, $password, $ktp){
+    function add($nama, $username, $password){
         $data = array(
                 'nama_lengkap' => $nama,
                 'username' => $username,
