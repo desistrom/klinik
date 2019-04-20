@@ -37,8 +37,8 @@
 						<span><label>Password</label></span>
 					    <span><input type="password" name="password" class="password" required></span>
 					 </div>
-                                                <span><label>No. KTP</label></span>
-                                                <span><input type="text" name="ktp" class="textboxt" required></span>
+                                                <!-- <span><label>No. KTP</label></span>
+                                                <span><input type="text" name="ktp" class="textboxt" required></span> -->
 					 </div>                           
 					<div class="sign">
 						<div class="submit">
