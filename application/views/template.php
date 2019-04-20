@@ -76,7 +76,7 @@
                                 <a href="<?php echo site_url().'/transaksi/laporan'?>">Laporan Default</a>
                             </li>
                             <li>
-                                <a href="<?php echo base_url().'transaksi/excel'?>">Laporan Excel</a>
+                                <!-- <a href="<?php echo base_url().'transaksi/excel'?>">Laporan Excel</a> -->
                             </li>
                             <li>
                                 <a href="<?php echo base_url().'transaksi/pdf'?>" target="_blank">Laporan PDF</a>

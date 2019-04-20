@@ -28,14 +28,15 @@ class Register extends CI_controller {
             
             $this->form_validation->set_rules('nama', 'NAME','required');
             $this->form_validation->set_rules('username', 'USERNAME','required');
+            $this->form_validation->set_rules('password', 'Password','required');
             
             $nama       =  $this->input->post('nama');
             $username   =  $this->input->post('username');
             $password   =  $this->input->post('password');
-            $ktp    =  $this->input->post('ktp');
+            // $ktp    =  $this->input->post('ktp');
             
             if($nama!=null || $username!=null || $password!=null || $ktp!=null ){
-                $this->m_pegawai->add($nama, $username, $password, $ktp);
+                $this->m_pegawai->add($nama, $username, $password);
                 redirect('Auth/login');
             }
                 else{

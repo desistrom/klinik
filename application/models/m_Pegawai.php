@@ -34,7 +34,7 @@ class M_Pegawai extends CI_model {
                 'nama_lengkap' => $nama,
                 'username' => $username,
                 'password' => md5($password),
-                'KTP'  => $ktp
+                // 'KTP'  => $ktp
                 );
 
         $this->db->insert('pegawai',$data);
