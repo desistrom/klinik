@@ -12,14 +12,14 @@ class Auth extends CI_Controller {
     
     function __construct() {
         parent::__construct();
-        $this->load->model('m_pegawai');
+        $this->load->model('M_Pegawai');
     }
     
     function login(){
        if(isset($_POST['submit'])){
        $username = $this->input->post('username');
        $password = $this->input->post('password');
-       $hasil = $this->m_Pegawai->login($username, $password);
+       $hasil = $this->M_Pegawai->login($username, $password);
        //$this->m_barang->tampildata($username);
               if ($hasil==1){
                  $sessiondata = array(
