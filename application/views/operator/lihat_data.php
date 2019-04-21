@@ -33,7 +33,7 @@
                                                 <td><?php echo $r->username ?></td>
                                                 <td><?php echo $r->last_login ?></td>
                                                 <td class="center">
-                                                    <?php echo anchor('pegawai/edit/'.$r->pegawai_id,'Edit'); ?> | 
+                                                    <!-- <?php echo anchor('pegawai/edit/'.$r->pegawai_id,'Edit'); ?> |  -->
                                                     <!-- <?php echo anchor('pegawai/delete/'.$r->pegawai_id,'Delete'); ?> -->
                                                 </td>
                                             </tr>
