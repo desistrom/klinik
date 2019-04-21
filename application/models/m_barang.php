@@ -17,9 +17,7 @@ class M_barang extends CI_Model {
     function tampil_data() {
         $username = $_SESSION['username'];
         $query = "select c.barang_id, c.nama_barang, d.nama_kategori, c.harga
-                from pegawai a join pegawai_barang b on a.pegawai_id=b.id_pegawai join barang c on 
-                b.id_barang=c.barang_id join kategori_barang d on c.kategori_id=d.kategori_id
-                where a.username='$username'";
+                from barang c join kategori_barang d on c.kategori_id=d.kategori_id";
         return $this->db->query($query);
     }
 
