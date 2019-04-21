@@ -48,6 +48,17 @@ class Kategori extends CI_Controller{
         $data['record'] = $this->db->get_where('kategori_barang',array('kategori_id'=>$id))->row_array();
         $this->template->load('template','kategori/form_edit',$data);
     }
+
+    function delete($id=null){
+        $barang = $this->db->get_where('barang',array('kategori_id'=>$id))->num_rows();
+        if ($barang > 0) {
+            $this->session->set_flashdata('notif','Kategori tidak bisa dihapus karena ada bareng di kategori ini');
+            redirect('kategori');
+        }else{
+            $this->db->delete('kategori_barang',array('kategori_id'=>$id));
+            redirect('kategori');
+        }
+    }
     
     
 }

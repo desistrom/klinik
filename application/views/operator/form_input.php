@@ -11,7 +11,7 @@
                     <div class="col-md-12">
                         <div class="panel panel-default">
                             <div class="panel-body">
-                                <?php echo form_open('operator/post'); ?>
+                                <?php echo form_open('pegawai/post'); ?>
                                 <div class="form-group">
                                     <label>Nama Lengkap</label>
                                     <input type="text" class="form-control" name="nama" placeholder="nama lengkap">

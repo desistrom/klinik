@@ -33,10 +33,16 @@ class Pegawai extends CI_Controller{
             $nama       =  $this->input->post('nama',true);
             $username   =  $this->input->post('username',true);
             $password   =  $this->input->post('password',true);
-            $jawaban    =  $this->input->post('jawaban',true);
+            // $jawaban    =  $this->input->post('jawaban',true);
             
-            $this->m_pegawai->add($nama, $username, $password, $jawaban);
-            redirect('Auth/login');
+            $this->m_pegawai->add($nama, $username, $password);
+            redirect('pegawai');
         }
+        $data = '';
+        $this->template->load('template','operator/form_input',$data);
     }
+
+    // function delete($id=null){
+    //     $this->db
+    // }
 }

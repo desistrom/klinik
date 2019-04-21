@@ -11,7 +11,7 @@
                     <div class="col-md-12">
                         <div class="panel panel-default">
                             <div class="panel-heading">
-                                 <?php echo anchor('operator/post','Tambah Data',array('class'=>'btn btn-danger btn-sm')) ?>
+                                 <?php echo anchor('pegawai/post','Tambah Data',array('class'=>'btn btn-danger btn-sm')) ?>
                             </div>
                             <div class="panel-body">
                                 <div class="table-responsive">
@@ -34,7 +34,7 @@
                                                 <td><?php echo $r->last_login ?></td>
                                                 <td class="center">
                                                     <?php echo anchor('pegawai/edit/'.$r->pegawai_id,'Edit'); ?> | 
-                                                    <?php echo anchor('pegawai/delete/'.$r->pegawai_id,'Delete'); ?>
+                                                    <!-- <?php echo anchor('pegawai/delete/'.$r->pegawai_id,'Delete'); ?> -->
                                                 </td>
                                             </tr>
                                         <?php $no++; } ?>

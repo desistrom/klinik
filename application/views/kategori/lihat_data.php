@@ -43,4 +43,9 @@
                         <!-- /. PANEL  -->
                     </div>
                 </div>
+                <script type="text/javascript">
+                    <?php if($this->session->flashdata('notif') != ''): ?>
+                        alert('<?php echo $this->session->flashdata('notif'); ?>');
+                    <?php endif; ?>
+                </script>
                 <!-- /. ROW  -->
