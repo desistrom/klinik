@@ -25,8 +25,8 @@ class Promo extends CI_Controller{
             $username = $_SESSION['username'];
             $data       = array('nama_promo'=>$namaPromo,
                                 'date_promo'=>$tglPromo,
-                                'besar_diskon'=>(($bsrDiskon))*0.01,
-                                'username'=>$username);
+                                'besar_diskon'=>(($bsrDiskon))*0.01
+                                );
             $this->m_promo->post($data);
             redirect('promo');
         }else{
