@@ -1,200 +1,198 @@
-/*------------------------------------------------------
-    Author : www.webthemez.com
-    License: Commons Attribution 3.0
-    http://creativecommons.org/licenses/by/3.0/
----------------------------------------------------------  */
+var getUrl = window.location;
+var base_url = getUrl .protocol + "//" + getUrl.host + "/" + getUrl.pathname.split('/')[1];
 
-(function ($) {
-    "use strict";
-    var mainApp = {
+$(document).ready(function () {
 
-        initFunction: function () {
-            /*MENU 
-            ------------------------------------*/
-            $('#main-menu').metisMenu();
-			
-            $(window).bind("load resize", function () {
-                if ($(this).width() < 768) {
-                    $('div.sidebar-collapse').addClass('collapse')
-                } else {
-                    $('div.sidebar-collapse').removeClass('collapse')
-                }
-            });
+	$('#doctor-table').DataTable();
+	$('.table').DataTable();
+	$('.tanggal-lahir').datepicker({
+		changeMonth: true,
+		changeYear: true
+	});		
+	$('.tanggal-lahir').datepicker("option", "dateFormat", 'DD, dd MM yy');
 
-            /* MORRIS BAR CHART
-			-----------------------------------------*/
-            Morris.Bar({
-                element: 'morris-bar-chart',
-                data: [{
-                    y: '2006',
-                    a: 100,
-                    b: 90
-                }, {
-                    y: '2007',
-                    a: 75,
-                    b: 65
-                }, {
-                    y: '2008',
-                    a: 50,
-                    b: 40
-                }, {
-                    y: '2009',
-                    a: 75,
-                    b: 65
-                }, {
-                    y: '2010',
-                    a: 50,
-                    b: 40
-                }, {
-                    y: '2011',
-                    a: 75,
-                    b: 65
-                }, {
-                    y: '2012',
-                    a: 100,
-                    b: 90
-                }],
-                xkey: 'y',
-                ykeys: ['a', 'b'],
-                labels: ['Series A', 'Series B'],
-                hideHover: 'auto',
-                resize: true
-            });
 
-            /* MORRIS DONUT CHART
-			----------------------------------------*/
-            Morris.Donut({
-                element: 'morris-donut-chart',
-                data: [{
-                    label: "Download Sales",
-                    value: 12
-                }, {
-                    label: "In-Store Sales",
-                    value: 30
-                }, {
-                    label: "Mail-Order Sales",
-                    value: 20
-                }],
-                resize: true
-            });
+});
 
-            /* MORRIS AREA CHART
-			----------------------------------------*/
+function deleteThis($link){
+	swal({
+		title: "Apa Anda Yakin?",
+		text: "Data ini akan di delete?",
+		icon: "warning",
+		buttons: true,
+		dangerMode: true,
+	})
+	.then((willDelete) => {
+		if (willDelete) {
+			swal("Poof! Your imaginary file has been deleted!", {
+				icon: "success",
+			});
+			window.location.replace($link)
+		}
+	});
+}
 
-            Morris.Area({
-                element: 'morris-area-chart',
-                data: [{
-                    period: '2010 Q1',
-                    iphone: 2666,
-                    ipad: null,
-                    itouch: 2647
-                }, {
-                    period: '2010 Q2',
-                    iphone: 2778,
-                    ipad: 2294,
-                    itouch: 2441
-                }, {
-                    period: '2010 Q3',
-                    iphone: 4912,
-                    ipad: 1969,
-                    itouch: 2501
-                }, {
-                    period: '2010 Q4',
-                    iphone: 3767,
-                    ipad: 3597,
-                    itouch: 5689
-                }, {
-                    period: '2011 Q1',
-                    iphone: 6810,
-                    ipad: 1914,
-                    itouch: 2293
-                }, {
-                    period: '2011 Q2',
-                    iphone: 5670,
-                    ipad: 4293,
-                    itouch: 1881
-                }, {
-                    period: '2011 Q3',
-                    iphone: 4820,
-                    ipad: 3795,
-                    itouch: 1588
-                }, {
-                    period: '2011 Q4',
-                    iphone: 15073,
-                    ipad: 5967,
-                    itouch: 5175
-                }, {
-                    period: '2012 Q1',
-                    iphone: 10687,
-                    ipad: 4460,
-                    itouch: 2028
-                }, {
-                    period: '2012 Q2',
-                    iphone: 8432,
-                    ipad: 5713,
-                    itouch: 1791
-                }],
-                xkey: 'period',
-                ykeys: ['iphone', 'ipad', 'itouch'],
-                labels: ['iPhone', 'iPad', 'iPod Touch'],
-                pointSize: 2,
-                hideHover: 'auto',
-                resize: true
-            });
+function skipThis($link){
+	swal({
+		title: "Lewati?",
+		text: "Lewati antrian ini?",
+		icon: "info",
+		buttons: true,
+		dangerMode: true,
+	})
+	.then((willDelete) => {
+		if (willDelete) {
+			swal("Antrian Berhasil di Skip!", {
+				icon: "success",
+			});
+			window.location.replace($link)
+		}
+	});
+}
 
-            /* MORRIS LINE CHART
-			----------------------------------------*/
-            Morris.Line({
-                element: 'morris-line-chart',
-                data: [{
-                    y: '2006',
-                    a: 100,
-                    b: 90
-                }, {
-                    y: '2007',
-                    a: 75,
-                    b: 65
-                }, {
-                    y: '2008',
-                    a: 50,
-                    b: 40
-                }, {
-                    y: '2009',
-                    a: 75,
-                    b: 65
-                }, {
-                    y: '2010',
-                    a: 50,
-                    b: 40
-                }, {
-                    y: '2011',
-                    a: 75,
-                    b: 65
-                }, {
-                    y: '2012',
-                    a: 100,
-                    b: 90
-                }],
-                xkey: 'y',
-                ykeys: ['a', 'b'],
-                labels: ['Series A', 'Series B'],
-                hideHover: 'auto',
-                resize: true
-            });
-           
-     
-        },
+function selectDokter(th) {
+	var id_layanan_medis = $(th).val();
 
-        initialization: function () {
-            mainApp.initFunction();
+	console.log(id_layanan_medis);
+	$.ajax({
+		url: base_url + "/Daftar/getDokter",
+		type: "POST",
+		dataType: 'json',
+		data:{id_layanan_medis:id_layanan_medis},
+		success: function(result) {
 
-        }
+			$("#id_dokter").find('option').remove().end();
 
-    }
-    // Initializing ///
+			if(result){
+				var html = '<option></option>';
+				$.each(result,function(i,data){
+					html += "<option value='"+data.id_dok+"'>"+data.nama_dokter+"</option>";
+				});
+			}else{
+				var html = '<option disabled>Tidak ada dokter yang bertugas</option>';
+			}	
+			$("#id_dokter").append(html);
+			console.log(result);
+		},
+		error: function(jqXHR, textStatus, errorThrown) {
+			console.log(jqXHR);
+		}
+	});
+}
 
-    $(document).ready(function () {
-        mainApp.initFunction();
-    });
+$(function() {
+	var data, options;
 
-}(jQuery));
+		// headline charts
+		data = {
+			labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+			series: [
+			[23, 29, 24, 40, 25, 24, 35],
+			[14, 25, 18, 34, 29, 38, 44],
+			]
+		};
+
+		options = {
+			height: 300,
+			showArea: true,
+			showLine: false,
+			showPoint: false,
+			fullWidth: true,
+			axisX: {
+				showGrid: false
+			},
+			lineSmooth: false,
+		};
+
+		// new Chartist.Line('#headline-chart', data, options);
+
+
+		// visits trend charts
+		data = {
+			labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+			series: [{
+				name: 'series-real',
+				data: [200, 380, 350, 320, 410, 450, 570, 400, 555, 620, 750, 900],
+			}, {
+				name: 'series-projection',
+				data: [240, 350, 360, 380, 400, 450, 480, 523, 555, 600, 700, 800],
+			}]
+		};
+
+		options = {
+			fullWidth: true,
+			lineSmooth: false,
+			height: "270px",
+			low: 0,
+			high: 'auto',
+			series: {
+				'series-projection': {
+					showArea: true,
+					showPoint: false,
+					showLine: false
+				},
+			},
+			axisX: {
+				showGrid: false,
+
+			},
+			axisY: {
+				showGrid: false,
+				onlyInteger: true,
+				offset: 0,
+			},
+			chartPadding: {
+				left: 20,
+				right: 20
+			}
+		};
+
+		// new Chartist.Line('#visits-trends-chart', data, options);
+
+
+		// visits chart
+		data = {
+			labels: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun'],
+			series: [
+			[6384, 6342, 5437, 2764, 3958, 5068, 7654]
+			]
+		};
+
+		options = {
+			height: 300,
+			axisX: {
+				showGrid: false
+			},
+		};
+
+		// new Chartist.Bar('#visits-chart', data, options);
+
+
+		// real-time pie chart
+		// var sysLoad = $('#system-load').easyPieChart({
+		// 	size: 130,
+		// 	barColor: function(percent) {
+		// 		return "rgb(" + Math.round(200 * percent / 100) + ", " + Math.round(200 * (1.1 - percent / 100)) + ", 0)";
+		// 	},
+		// 	trackColor: 'rgba(245, 245, 245, 0.8)',
+		// 	scaleColor: false,
+		// 	lineWidth: 5,
+		// 	lineCap: "square",
+		// 	animate: 800
+		// });
+
+		// var updateInterval = 3000; // in milliseconds
+
+		// setInterval(function() {
+		// 	var randomVal;
+		// 	randomVal = getRandomInt(0, 100);
+
+		// 	sysLoad.data('easyPieChart').update(randomVal);
+		// 	sysLoad.find('.percent').text(randomVal);
+		// }, updateInterval);
+
+		// function getRandomInt(min, max) {
+		// 	return Math.floor(Math.random() * (max - min + 1)) + min;
+		// }
+
+	});
