@@ -36,6 +36,7 @@ class C_Daftar extends CI_Controller {
 		$id_dokter = $this->input->post('id_dokter');
 		$nama = $this->input->post('nama');
 		$umur = $this->input->post('umur');
+		$tinggi_badan = $this->input->post('tinggi_badan');
 		$berat_badan = $this->input->post('berat_badan');
 		$jenis_kelamin = $this->input->post('jenis_kelamin');
 		$tanggal_besuk = date('Y-m-d');
@@ -50,6 +51,7 @@ class C_Daftar extends CI_Controller {
 			'nama' => $nama, 
 			'umur' => $umur, 
 			'berat_badan' => $berat_badan, 
+			'tinggi_badan' => $tinggi_badan, 
 			'jenis_kelamin' => $jenis_kelamin, 	
 			'tanggal_besuk' => $tanggal_besuk, 	
 			'alamat' => $alamat ,

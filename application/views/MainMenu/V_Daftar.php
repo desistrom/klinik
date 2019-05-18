@@ -44,17 +44,22 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-4">
+                  <div class="col-md-3">
                     <div class="form-group">
                       <label class="bmd-label-floating">Umur</label>
                       <input type="text" name="umur" class="form-control" required=""></div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-3">
+                      <div class="form-group">
+                        <label class="bmd-label-floating">Tinggi Badan</label>
+                        <input type="text" name="tinggi_badan" class="form-control" required=""></div>
+                      </div>
+                      <div class="col-md-3">
                       <div class="form-group">
                         <label class="bmd-label-floating">Berat Badan</label>
                         <input type="text" name="berat_badan" class="form-control" required=""></div>
                       </div>
-                      <div class="col-md-4">
+                      <div class="col-md-3">
                         <div class="form-group">
                           <label class="bmd-label-floating">Jenis Kelamin</label>
                           <select name="jenis_kelamin" class="form-control" required="">
@@ -80,6 +85,7 @@
                           <div class="form-group">
                             <label class="bmd-label-floating">Jenis Layanan Medis</label>
                             <select name="jenis_layanan" class="form-control" onchange="selectDokter(this)" >
+                              <option value="">-- Pilih Jenis Layanan medis --</option>
                               <?php 
                               if(is_array($layanan) && !empty($layanan)){
                                 foreach ($layanan as $value) {  
@@ -122,7 +128,7 @@
                   <div class="form-group">
                     <label class="bmd-label-floating">Jaminan Kesehatan</label>
                     <select name="id_jamkes" class="form-control" required="">
-                      <option>Tidak Ada</option>
+                      <option value="">Tidak Ada</option>
                       <?php foreach ($jamkes as $value) { ?>
                       <option value="<?php echo $value['id_jamkes']; ?>">
                         <?php echo $value['singkatan']; ?>&nbsp;(

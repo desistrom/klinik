@@ -71,6 +71,7 @@
                   <h4 class="info-title"><?php echo $value['nama_user']; ?></h4>
                   <h5 align="left" style="margin-left: 10px">
                       <b>Umur :</b> <?php echo $value['umur']; ?> cm<br>
+                      <b>Tinggi Badan :</b> <?php echo $value['tinggi_badan']; ?> kg<br>
                       <b>Berat Badan :</b> <?php echo $value['berat_badan']; ?> kg<br>
                       <b>Jenis Kelamin :</b> <?php echo $value['jenis_kelamin']; ?><br>
                       <b>Alamat : </b> <?php echo $value['alamat']; ?><br>  
