@@ -25,6 +25,9 @@
 		    text-overflow:ellipsis;
 		}
 	</style>
+	<script type="text/javascript">
+		var base_url = "<?=base_url()?>";
+	</script>
 </head>
 <body>
 	<div id="wrapper">

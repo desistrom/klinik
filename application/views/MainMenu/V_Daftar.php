@@ -12,6 +12,9 @@
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/material-kit.css?v=2.0.4');?>"/>
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/css/jquery.dataTables.min.css'); ?>">
   <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/plugins/jqueryui/jquery-ui.min.css'); ?>">
+  <script type="text/javascript">
+    var base_url = "<?=base_url()?>";
+  </script>
 </head>
 <body class="landing-page sidebar-collapse">
   <nav class="navbar  fixed-top navbar-expand-lg bg-rose" id="sectionsNav">
