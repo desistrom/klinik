@@ -44,6 +44,7 @@ public function jadwalDetail($id = false) {
 		$data['id_jadwal']	= $plaintext_string;
 		$data['list'] = $this->M_admin->getJadwal($plaintext_string);
 		$data['id'] = $id;
+		// print_r($data);
 		$this->load->view("V_Header");
 		$this->load->view("Admin/Jadwal/V_Detail",$data);
 		$this->load->view("V_Footer");
@@ -83,7 +84,7 @@ public function jadwalEdit($id = false) {
 		
 		$data  = array(
 				'id_dokter' => $id_dokter, 
-				'bagian' => $bagian,
+				'bagian' => $this->input->post('bagian'),
 				'hari_pertama' => $hari_pertama,
 				'hari_terakhir' => $hari_terakhir,
 				'jam_pertama' => $time_awal,
@@ -91,6 +92,7 @@ public function jadwalEdit($id = false) {
 				);
 		
 		// echo "<pre>";
+		// print_r($this->input->post());
 		// print_r($data);
 		// exit();
 
@@ -119,7 +121,7 @@ public function jadwalEdit($id = false) {
 		
 		$data  = array(
 				'id_dokter' => $id_dokter, 
-				'bagian' => $bagian,
+				'bagian' => $this->input->post('bagian'),
 				'hari_pertama' => $hari_pertama,
 				'hari_terakhir' => $hari_terakhir,
 				'jam_pertama' => $time_awal,

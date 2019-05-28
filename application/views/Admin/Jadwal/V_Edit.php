@@ -24,8 +24,8 @@
 						<div class="panel-heading">
 						</div>
 						<div class="panel-body">
-							<form action="<?php echo base_url('Jadwal/insertJadwal'); ?>" method="POST">
-								<input type="hidden" value="<?php echo $id_jadwal; ?>">
+							<form action="<?php echo base_url('Jadwal/updateJadwal'); ?>" method="POST">
+								<input type="hidden" name="id_jadwal" value="<?php echo $id_jadwal; ?>">
 								<div class="col-md-3">
 								</div>
 								<div class="col-md-6">

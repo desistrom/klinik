@@ -105,12 +105,15 @@ public function layananEdit($id = false) {
 /*------------------------------- UPDATE SECTION --------------------------------*/
 
 	public function updateLayanan(){
+		$id = $this->input->post('id_layanan');
 		$nama = $this->input->post('nama');
 		$layanan_medis = $this->input->post('layanan_medis');
 		$info_medis = $this->input->post('info_medis');
+		$kode = $this->input->post('kode');
 		$data  = array(
 				'nama' => $nama, 
 				'layanan_medis' => $layanan_medis,
+				'code_layanan' => $kode,
 				'info_medis' => $info_medis
 				);
 		// echo "<pre>";

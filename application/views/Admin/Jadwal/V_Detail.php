@@ -22,8 +22,8 @@
 				<div class="col-md-12">
 					<div class="panel">
 						<div class="panel-body">
-							<form action="<?php echo base_url('Layanan/updateLayanan'); ?>" method="POST">
-								<input type="hidden" value="<?php echo $id_layanan; ?>" name="id_layanan">
+							<form action="<?php echo base_url('Layanan/updateJadwal'); ?>" method="POST">
+								<input type="hidden" value="<?php echo $id_jadwal; ?>" name="id_layanan">
 								<div class="col-md-6">
 									<?php 
 									if($list){
@@ -31,17 +31,17 @@
 											?>
 											<div class="form-group">
 												<label for="nama-dokter">Nama</label>
-												<h4 id="nama-dokter"><?php echo $value['nama']; ?></h4>
+												<h4 id="nama-dokter"><?php echo $value['nama_dokter']; ?></h4>
 												<hr>
 											</div>
 											<div class="form-group">
 												<label for="layanan_medis">Layanan Medis</label>
-												<h4 id="layanan_medis"><?php echo $value['layanan_medis']; ?></h4>
+												<h4 id="layanan_medis"><?php echo $value['bagian']; ?></h4>
 												<hr>
 											</div>
 											<div class="form-group">
-												<label for="info_medis">Info Medis</label>
-												<h4 id="info_medis"><?php echo $value['info_medis']; ?></h4>
+												<label for="info_medis">Jam Operasiona</label>
+												<h4 id="info_medis"><?php echo $value['jam_pertama']; ?> - <?php echo $value['jam_terakhir']; ?></h4>
 											</div>
 											<hr>
 										</div>

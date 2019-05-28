@@ -156,7 +156,7 @@ class M_admin extends CI_Model {
 
 	public function getJadwal($id){
 		$this->db->where('id_jadwal',$id);
-		$data = $this->db->get('tbl_jadwal');
+		$data = $this->db->query('SELECT * from tbl_jadwal j join tbl_dokter d on j.id_dokter = d.id_dok where j.id_jadwal = '.$id);
 		if($data->num_rows() > 0){
 			return $data->result_array();
 		}else{
@@ -306,6 +306,10 @@ class M_admin extends CI_Model {
 	public function deleteHubungi($id){
 		$this->db->where('id_hubungi',$id);
 		return $this->db->delete('tbl_hubungi');
+	}
+	public function deleteAntrian($id){
+		$this->db->where('id_antrian',$id);
+		return $this->db->delete('tbl_antrian');
 	}
 }
 ?>
